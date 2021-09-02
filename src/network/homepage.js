@@ -19,6 +19,7 @@ export function getColumnMsg() {
 /* 
 头部信息请求
  */
+
 export function getConsumptionAmount() {
     return request2({
         url: './ads_orders_consumption_Query_count/25042'
@@ -37,6 +38,7 @@ export function getConsumptionWater() {
 export function getDeviceCount() {
     return request2({
         url: './ads_bot_device_query_count/25042'
+
     })
 }
 export function getPersonnelCount() {
